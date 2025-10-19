@@ -1,6 +1,6 @@
 # Lab 3 — Creating the Frontend (React)
 
-**Name:** Yusef Lamadanie, Jessica Chen, Benjamin Persinger, William Makaudze
+**Name:** Yusef Lamadanie, Jessica Chen, Benjamin Persinger, William Makaudze  
 **Course:** ACCTMIS 4630 — Business Systems Application Development  
 **Lab:** #3 — Frontend Development with React
 
@@ -9,7 +9,7 @@
 ## 🧭 Overview
 
 This project implements a simple e-commerce frontend built with **React** and **React Router**.  
-It follows the official Lab 3 instructions and includes navigation, dynamic product rendering, mock orders, a payment flow with props, and an optional fulfillment feature.
+It follows the official Lab 3 instructions and includes navigation, dynamic product rendering, mock orders, a payment flow with props, a security placeholder, and an optional fulfillment feature.
 
 ---
 
@@ -19,9 +19,9 @@ It follows the official Lab 3 instructions and includes navigation, dynamic prod
 - 🛍️ **Catalog Page** – Displays products dynamically with `.map()` and placeholder images
 - 📦 **Orders Page** – Displays mock order table
 - 💳 **Payment Page** – Shows checkout steps using props
+- 🧭 **Navigation Menu** – Hamburger/flyout menu to access all pages
 - 🚚 **Fulfillment Page** – Extra credit: shipped vs. pending status
-- 🧭 **Hamburger Navigation Menu** – Interactive flyout menu to navigate pages
-- 📁 Organized folder structure per lab requirements
+- 🔐 **Security Page** – Placeholder page to demonstrate routing structure
 
 ---
 
@@ -34,6 +34,7 @@ It follows the official Lab 3 instructions and includes navigation, dynamic prod
 | `/orders` | Orders | Mock order data |
 | `/payment` | Payment | Checkout step flow |
 | `/fulfillment` | Fulfillment | Order fulfillment status (extra credit) |
+| `/security` | Security | Placeholder for future security/authentication features |
 
 ---
 
