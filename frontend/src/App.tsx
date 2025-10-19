@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import Home from "./Home/Home";
 import Products from "./Products/Products";
 import Orders from "./Orders/Orders";
 import Payment from "./Payment/Payment";
 import Fulfillment from "./Fulfillment/Fulfillment";
+import Security from "./Security/Security";  // 👈 New Security Component
 import "./App.css";
 
 function App() {
@@ -57,6 +59,9 @@ function App() {
           <Link to="/fulfillment" onClick={() => setMenuOpen(false)}>
             Fulfillment
           </Link>
+          <Link to="/security" onClick={() => setMenuOpen(false)}>
+            Security
+          </Link>
         </nav>
       </header>
 
@@ -68,6 +73,7 @@ function App() {
           <Route path="/orders" element={<Orders />} />
           <Route path="/payment" element={<Payment />} />
           <Route path="/fulfillment" element={<Fulfillment />} />
+          <Route path="/security" element={<Security />} /> {/* 👈 New route */}
         </Routes>
       </main>
     </Router>
