@@ -4,7 +4,7 @@
 **Course:** ACCTMIS 4630 — Business Systems Application Development  
 **Lab:** #3 — Frontend Development with React
 
----
+--- 
 
 ## 🧭 Overview
 
