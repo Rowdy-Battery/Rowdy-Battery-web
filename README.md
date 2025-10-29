@@ -33,7 +33,7 @@ It follows the official Lab 3 instructions and includes navigation, dynamic prod
 | `/products` | Catalog | Product listing |
 | `/orders` | Orders | Mock order data |
 | `/payment` | Payment | Checkout step flow |
-| `/fulfillment` | Fulfillment | Order fulfillment status (extra credit) |
+| `/fulfillment` | Fulfillment | Order fulfillment status |
 | `/security` | Security | Placeholder for future security/authentication features |
 
 ---
