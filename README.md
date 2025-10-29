@@ -20,7 +20,7 @@ It follows the official Lab 3 instructions and includes navigation, dynamic prod
 - 📦 **Orders Page** – Displays mock order table
 - 💳 **Payment Page** – Shows checkout steps using props
 - 🧭 **Navigation Menu** – Hamburger/flyout menu to access all pages
-- 🚚 **Fulfillment Page** – Extra credit: shipped vs. pending status
+- 🚚 **Fulfillment Page** – Shipped vs. pending status
 - 🔐 **Security Page** – Placeholder page to demonstrate routing structure
 
 ---
