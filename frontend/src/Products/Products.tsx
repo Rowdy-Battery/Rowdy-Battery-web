@@ -1,6 +1,37 @@
-import products from "./data";
+import React, { useEffect, useState } from "react";
+
+type Product = {
+  id: number;
+  name: string;
+  price: number;
+  image?: string;
+  description?: string;
+};
 
 export default function Products() {
+  const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const res = await fetch("/api/Catalog");
+        if (!res.ok) throw new Error(`Server returned ${res.status}`);
+        const data = await res.json();
+        setProducts(data || []);
+      } catch (err: any) {
+        setError(err.message || "Failed to load products");
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchProducts();
+  }, []);
+
+  if (loading) return <div>Loading products…</div>;
+  if (error) return <div>Error: {error}</div>;
+
   return (
     <div>
       <h1>Product Catalog</h1>
@@ -25,17 +56,19 @@ export default function Products() {
               boxShadow: "0 2px 6px rgba(0, 0, 0, 0.05)",
             }}
           >
-            <img
-              src={product.image}
-              alt={product.name}
-              style={{
-                width: "100%",
-                height: "150px",
-                objectFit: "cover",
-                marginBottom: "10px",
-                borderRadius: "4px",
-              }}
-            />
+            {product.image && (
+              <img
+                src={product.image}
+                alt={product.name}
+                style={{
+                  width: "100%",
+                  height: "150px",
+                  objectFit: "cover",
+                  marginBottom: "10px",
+                  borderRadius: "4px",
+                }}
+              />
+            )}
             <h3 style={{ fontSize: "1.1rem", marginBottom: "5px" }}>
               {product.name}
             </h3>
