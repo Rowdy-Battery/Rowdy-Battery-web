@@ -1,12 +1,18 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 type Product = {
   id: number;
   name: string;
+  description: string;
+  brand: string;
   price: number;
-  image?: string;
-  description?: string;
-};
+  rating: number;
+  numberOfReviews: number;
+  imageURL: string;
+}
+
+const emptyProducts: Product[] = [];
 
 export default function Products() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -47,7 +53,7 @@ export default function Products() {
       >
         {products.map((product) => (
           <li
-            key={product.id}
+            key={`product-${product.id}`}
             style={{
               border: "1px solid #ccc",
               padding: "15px",
@@ -56,9 +62,9 @@ export default function Products() {
               boxShadow: "0 2px 6px rgba(0, 0, 0, 0.05)",
             }}
           >
-            {product.image && (
+            {product.imageURL && (
               <img
-                src={product.image}
+                src={product.imageURL}
                 alt={product.name}
                 style={{
                   width: "100%",

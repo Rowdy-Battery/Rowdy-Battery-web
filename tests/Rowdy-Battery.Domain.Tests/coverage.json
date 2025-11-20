@@ -1,0 +1,225 @@
+{
+  "Rowdy-Battery.Domain.dll": {
+    "C:\\Users\\zixin\\OneDrive\\Documents\\GitHub\\repos\\Rowdy-Battery-web\\src\\Rowdy-Battery.Domain\\Item.cs": {
+      "Rowdy_Battery.Domain.Item": {
+        "System.String Rowdy_Battery.Domain.Item::get_Name()": {
+          "Lines": {
+            "8": 1
+          },
+          "Branches": []
+        },
+        "System.String Rowdy_Battery.Domain.Item::get_Description()": {
+          "Lines": {
+            "9": 1
+          },
+          "Branches": []
+        },
+        "System.String Rowdy_Battery.Domain.Item::get_Brand()": {
+          "Lines": {
+            "10": 1
+          },
+          "Branches": []
+        },
+        "System.Decimal Rowdy_Battery.Domain.Item::get_Price()": {
+          "Lines": {
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Rowdy_Battery.Domain.Rating> Rowdy_Battery.Domain.Item::get_Ratings()": {
+          "Lines": {
+            "13": 4
+          },
+          "Branches": []
+        },
+        "System.Void Rowdy_Battery.Domain.Item::AddRating(Rowdy_Battery.Domain.Rating)": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 7,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Rowdy_Battery.Domain.Item::.ctor(System.String,System.String,System.String,System.Decimal)": {
+          "Lines": {
+            "15": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 22,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 18,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 44,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 19,
+              "Offset": 60,
+              "EndOffset": 62,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 60,
+              "EndOffset": 68,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\zixin\\OneDrive\\Documents\\GitHub\\repos\\Rowdy-Battery-web\\src\\Rowdy-Battery.Domain\\Rating.cs": {
+      "Rowdy_Battery.Domain.Rating": {
+        "System.Int32 Rowdy_Battery.Domain.Rating::get_Stars()": {
+          "Lines": {
+            "7": 1
+          },
+          "Branches": []
+        },
+        "System.String Rowdy_Battery.Domain.Rating::get_UserName()": {
+          "Lines": {
+            "8": 1
+          },
+          "Branches": []
+        },
+        "System.String Rowdy_Battery.Domain.Rating::get_Review()": {
+          "Lines": {
+            "9": 1
+          },
+          "Branches": []
+        },
+        "System.Void Rowdy_Battery.Domain.Rating::.ctor(System.Int32,System.String,System.String)": {
+          "Lines": {
+            "11": 3,
+            "12": 3,
+            "13": 3,
+            "14": 1,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 13,
+              "Offset": 10,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 13,
+              "Offset": 21,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 17,
+              "Offset": 49,
+              "EndOffset": 51,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 49,
+              "EndOffset": 63,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 18,
+              "Offset": 71,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 71,
+              "EndOffset": 79,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    }
+  }
+}
