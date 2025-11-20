@@ -1,0 +1,12 @@
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\bin\Debug\net9.0\Rowdy-Battery.Domain.deps.json
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\bin\Debug\net9.0\Rowdy-Battery.Domain.dll
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\bin\Debug\net9.0\Rowdy-Battery.Domain.pdb
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\obj\Debug\net9.0\Rowdy-Battery.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\obj\Debug\net9.0\Rowdy-Battery.Domain.AssemblyInfoInputs.cache
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\obj\Debug\net9.0\Rowdy-Battery.Domain.AssemblyInfo.cs
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\obj\Debug\net9.0\Rowdy-Battery.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\obj\Debug\net9.0\Rowdy-Battery.Domain.sourcelink.json
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\obj\Debug\net9.0\Rowdy-Battery.Domain.dll
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\obj\Debug\net9.0\refint\Rowdy-Battery.Domain.dll
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\obj\Debug\net9.0\Rowdy-Battery.Domain.pdb
+C:\Users\zixin\OneDrive\Documents\GitHub\repos\Rowdy-Battery-web\src\Rowdy-Battery.Domain\obj\Debug\net9.0\ref\Rowdy-Battery.Domain.dll
